@@ -1,0 +1,13 @@
+[user]
+	email = 5506079+Nyantamaru@users.noreply.github.com
+	name = Manuel Cruz
+[core]
+	editor = code --wait
+	autocrlf = input
+[diff]
+	tool = vscode
+[difftool "vscode"]
+	cmd = "code --wait --diff $LOCAL $REMOTE"
+[alias]
+	lg = log --pretty=format:'%an commited %h'
+	unstage = restore --staged .
