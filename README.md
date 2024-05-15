@@ -11,3 +11,4 @@ Learning everything about dotfiles is great.
 - Tracked (Three Finger Drag and Tap to Click)
 - .zshrc
 - Git (config and SSH)
+- Homebre Install
