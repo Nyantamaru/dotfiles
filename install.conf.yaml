@@ -6,16 +6,12 @@
 
 - link:
     ~/.zshrc:
-    ~/.gitconfig: 
+    ~/.gitconfig:
 
 - create:
     - ~/Work
 
 - shell:
-#  - [git submodule update --init --recursive, Installing submodules]
-   - echo "Hey you girls!!"
-   - sleep 2
-   -
-     command: ./test.zsh
-     stdout: true   
-     stderr: true
+    - command: ./setup_homebrew.zsh
+      stdout: true
+      stderr: true
