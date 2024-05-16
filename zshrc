@@ -123,10 +123,13 @@ source <(ng completion script)
 ##Node SSL
 #export NODE_OPTIONS=--openssl-legacy-provider
 #rc = run comand
-echo 'Hello from .zsrc this is Manuel learing dotFiles' 
+echo 'Hello from zsrc file in the .dotfile directory, this is Manuel learing dotFiles' 
 
 
 # Set Variables
+#Syntax highlight for man pages using bat
+export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+
 # Change ZSH Options
 # Create Aliases
 alias ls='ls -lAFh'
@@ -142,17 +145,9 @@ function mkcd() {
   mkdir -p  "$@" && cd "$_"
 }
 
-
-
-
-
 # Use ZSH Plugins
 #... Other Surprises
 
+#Installation of Homebrew
 
-
-
-
-
-
-
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
