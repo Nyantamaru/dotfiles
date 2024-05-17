@@ -1,9 +1,12 @@
 tap "homebrew/bundle"
+# Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
+# Emacs dependency management
 brew "cask"
+# Program providing model for GNU coding standards and practices
 brew "hello"
+# User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
-brew "exa"
 vscode "akamud.vscode-theme-onedark"
 vscode "alexcvzz.vscode-sqlite"
 vscode "alfredbirk.tailwind-documentation"
